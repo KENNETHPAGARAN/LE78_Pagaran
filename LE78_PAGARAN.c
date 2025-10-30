@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
 int main() {
     int n, i;
     int largest;
@@ -36,4 +40,4 @@ int main() {
     printf("The number of vowels in the string is: %d\n", vowelCount);
 
     return 0;
-}}
+}
